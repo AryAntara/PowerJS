@@ -39,5 +39,14 @@ draw.printDetail()
 node Expenses_February_2024
 ```
 
-Ini baru satu fitur yang aku buat, semoga kedepannya bisa menambahkan fitur-fitur lain, seperti untuk catatan, todo, atau banyak lagi. 
-Terima kasih telah berkunjung :>.
+### CLI command
+1. `detail`. Melakukan print transaction beserta dengan transactio history
+2. `quiet`. Hanya print nominal dan keterangan saja.
+
+contoh : 
+``` 
+node ./pow.js Expense detail
+```
+
+
+
