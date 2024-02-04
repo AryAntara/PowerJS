@@ -22,7 +22,7 @@ const expense_5 = new Template(10000, 20000, '2022-01-31','untuk beli makan')
 expense_5.append(100, 1000, 'beli kain pel') 
 ``` 
 
-5. untuk melihat output dari Expenses yang telah dibuat bisa menggunakan function `draw.printQUiet` atau `draw.printDetail`, 
+5. untuk melihat output dari Expenses yang telah dibuat bisa menggunakan function `draw.printQuiet` atau `draw.printDetail`, setelah itu tinggal run filenya.
 contoh :
 ```js 
 import { Template, draw } from "./Expense"
@@ -35,5 +35,9 @@ const expense_5 = new Template(100,200, '2024-02-02', 'untuk minum')
 draw.printDetail()
 ```
 
-Ini baru satu fitur yang aku buat, semoag kedepannya bisa menambahkan fitur-fitur lain, seperti untuk catatan, todo, atau banyak lagi. 
+```sh
+node Expenses_February_2024
+```
+
+Ini baru satu fitur yang aku buat, semoga kedepannya bisa menambahkan fitur-fitur lain, seperti untuk catatan, todo, atau banyak lagi. 
 Terima kasih telah berkunjung :>.
