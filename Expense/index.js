@@ -3,7 +3,12 @@ import { TRANSACTIONS } from "./global";
 import { Draw } from "./Lib/Draw";
 
 const draw = new Draw
+const cmd = {
+    "handler": draw, 
+    "detail": 'printDetail',
+    'quiet' : 'printQuiet',
+}
 
 export {
-    Template, TRANSACTIONS, draw
+    Template, draw, cmd 
 }
