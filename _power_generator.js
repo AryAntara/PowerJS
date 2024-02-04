@@ -25,7 +25,7 @@ for(let part of partList){
     
     const partFiles = files.filter(file => file.split(`${part}_`).length > 1)
     for (let partFile of partFiles){
-        importPartFiles += `import "./${partFile}"`
+        importPartFiles += `import "./${partFile}"\n`
     }
 
     commandParse += `
@@ -34,7 +34,7 @@ for(let part of partList){
             console.log('Handler is Missed!')
             break
         }
-        Cmd${part}.handler[Cmd${part}[params[0]]](params)
+        Cmd${part}.handler[Cmd${part}[params[0]]](...params.slice(1))
         break
     ` 
 }
