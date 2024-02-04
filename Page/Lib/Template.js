@@ -1,4 +1,4 @@
-import { PAGES } from "../global"
+import { PAGES } from "../global.js"
 
 export class Template {
     title = ""

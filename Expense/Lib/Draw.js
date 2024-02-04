@@ -1,4 +1,4 @@
-import { TRANSACTIONS } from "../global";
+import { TRANSACTIONS } from "../global.js";
 
 const FIELD_DATE = 'Tanggal'
     , FIELD_OUTCOME = 'Pegeluaran'

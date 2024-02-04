@@ -1,4 +1,4 @@
-import { Template } from "./Page";
+import { Template } from "./Page/index.js";
 
 const page = new Template('2024-02-04')
 page.setTitle('Cerita Pendek Dongeng: "Si Kancil dan Harimau"Penuh Makna')

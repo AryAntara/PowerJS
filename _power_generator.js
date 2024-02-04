@@ -21,7 +21,7 @@ if(!command || (command != 'rebuild' && !params[0]) ) {
 switch(command){`.trim()
 
 for(let part of partList){
-    importCmdScript += `import {cmd as Cmd${part} } from "./${part}"\n`
+    importCmdScript += `import {cmd as Cmd${part} } from "./${part}/index.js"\n`
     
     const partFiles = files.filter(file => file.split(`${part}_`).length > 1)
     for (let partFile of partFiles){
