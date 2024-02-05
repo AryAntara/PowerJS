@@ -1,5 +1,5 @@
-import { Template } from "./Lib/Template";
-import { Draw } from "./Lib/Draw";
+import { Template } from "./Lib/Template.js";
+import { Draw } from "./Lib/Draw.js";
 
 const draw = new Draw
 const cmd = {

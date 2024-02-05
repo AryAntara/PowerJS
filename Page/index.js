@@ -1,6 +1,6 @@
-import { Template } from "./Lib/Template"
-import { PAGES } from "./global"
-import { listPages,look } from "./handler"
+import { Template } from "./Lib/Template.js"
+import { PAGES } from "./global.js"
+import { listPages,look } from "./handler.js"
 
 
 const cmd = {

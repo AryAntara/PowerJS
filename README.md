@@ -6,7 +6,7 @@ Power js adalah kumpulan tool-tool yang dibuat menggunakan bahasa pemrogramman j
 
 Kamu bisa membuat sebuah pow.js, pow.js adalah sebuah file javascript yang dapat membantu kamu menjalankan part of power js, lantas bagaimana cara membuat nya?
 mudah saja, caranya sebagai berikut : 
-1. jalankan file `_power_generato.js` dengan command 
+1. jalankan file `_power_generator.js` dengan command 
 ```bash 
 node _power_generator.js
 ```
